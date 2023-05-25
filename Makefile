@@ -1,5 +1,5 @@
 install:
-	#install commands
+	#install commands must have 
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
