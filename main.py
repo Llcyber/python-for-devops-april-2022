@@ -7,7 +7,6 @@ from mylib.logic import phrase as wikiphrases
 app = FastAPI()
 
 
-
 @app.get("/")
 async def root():
     return {"message": "Wikipedia API.  Call /search or /wiki"}
